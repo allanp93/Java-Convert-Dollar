@@ -8,6 +8,6 @@ public class convertDollar {
 			double realValue = sc.nextInt();
 			double dollarValue = convert.buyDollar(realValue);
 			System.out.printf("Value in Dollar: %.2f", dollarValue);
-			sc.close(); 
+			sc.close();
 	}
 }
